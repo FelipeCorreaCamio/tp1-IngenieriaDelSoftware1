@@ -1,0 +1,1 @@
+Integrantes: Badaracco, Valentino; Correa, Felipe; Gross, Dylan; Hertler, Kevin; Waigel, Agustina; Zuleiman, Agustin.
