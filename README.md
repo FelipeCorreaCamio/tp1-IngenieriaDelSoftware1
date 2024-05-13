@@ -48,17 +48,22 @@ Validación: Debe existir en la base de datos proveedores.
 Para validarlo se prueba con códigos de proveedor que si esten registrados, y códigos de proveedor que no existan, para ver como reacciona el sistema ante el error.
 --------------------------------------------------------------------------------------------------------------------------------------------------
 Precio:
-Tipo de dato: FLOAT
+Tipo de dato: DECIMAL
 Límites: mínimo 1000 ($), máximo 100000 ($)
 Validación: Verificar que el precio está dentro del rango permitido para evitar valores extremos o mínimos.
 Para validarlo se prueba con números que cumplan con los límites, y con números por fuera de los límites, para ver como reacciona el sistema ante el error.
 ==================================================================================================================================================
 Codificacion:
 
-Para la codificación elegiríamos la codificación alfanumérica. 
+Para la codificación de las prendas elegiríamos la codificación alfanumérica. 
 Con 3 letras y 3 números (ABC123)
 En las 3 primeras letras pondríamos una breve descripción del nombre del tipo de prenda, ejemplo: CAM(camisa) - PAN(pantalón) - REM(remera) - POL(pollera).
 Y los 3 números siguientes serian secuenciales para cada variedad de prendas que hay dentro de cada tipo
 Ejemplos: 
 CAM001 para una camisa manga larga de "x" modelo
 PAN005 para un pantalón largo para "x" modelo 
+
+Para la codificacion de los proveedores elegiriamos la codificación alfanumérica también.
+Con 4 letras y 3 números (ABCD-123)
+En las 4 primeras letras pondríamos una breve descripción del nombre del proveedor, ejemplo: CLOT(clothing) 
+Y en los 3 numeros siguientes serian secuenciales.
